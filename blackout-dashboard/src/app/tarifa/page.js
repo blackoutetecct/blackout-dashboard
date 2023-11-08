@@ -15,7 +15,7 @@ export default function Home() {
 
     <>
 
-      <Navbar 
+      <Navbar
 
         linkDasboardColor="text-white"
         linkTarifaColor="text-[#E4DA81]"
@@ -27,11 +27,11 @@ export default function Home() {
 
       />
 
-      <main className="ml-[300px] max-[700px]:ml-[60px] p-14 max-lg:p-5 max-[400px]:px-6 font-[600] dashboard-content max-w-[1400px] mx-auto main-dashboard">
+      <main className="ml-[300px]  max-[700px]:ml-[60px] p-14 max-lg:p-5 max-[400px]:px-6 font-[600] dashboard-content max-w-[1400px] mx-auto main-dashboard">
 
           <Title title="TARIFA"/>
 
-          <section className="flex gap-2 bg-[#070707] max-[500px]:bg-black max-[500px]:px-0 mt-5 max-[400px]:mt-0 max-[400px]:pt-[1rem] pt-[3rem]  rounded-md px-4 items-center"> 
+          <section className="flex gap-2 relative top-[-2rem] bg-[#070707] max-[500px]:bg-black max-[500px]:px-0 mt-5 max-[400px]:mt-0 max-[400px]:pt-[1rem] pt-[3rem]  rounded-md px-4 items-center"> 
            
            <Image 
            src={tarifaImage}
@@ -42,7 +42,7 @@ export default function Home() {
                 <Title title="VALOR" />
 
                 <div className='flex max-[400px]:flex-col gap-6 items-center pt-5'> 
-                    <input className="bg-[#131313] text-center py-[1.9rem] text-xl rounded-[15px] w-[100%] text-[#818181]" placeholder='MÊS' type="number" name="mounth" required />    
+                    <input className="bg-[#131313] text-center py-[1.9rem] text-xl rounded-[15px] w-[100%] text-[#818181]" placeholder='MÊS' type="number" name="mounth" required />
                     <input className="bg-[#131313] text-center py-[1.9rem] text-xl rounded-[15px] w-[100%] text-[#818181]" placeholder='ANO' type="number" name="year" required />    
                 </div>
                     <textarea placeholder='OBSERVAÇÃO' className="w-full mt-5 bg-[#131313] p-5  rounded-[15px] h-[45vh]"   ></textarea>

@@ -28,18 +28,18 @@ export default function Home() {
 
       />
 
-      <main className="ml-[300px] max-[700px]:ml-[60px] p-14 max-lg:p-5 max-[400px]:px-6 font-[600] dashboard-content max-w-[1400px] mx-auto main-dashboard">
+      <main className="pb-[2rem] ml-[300px] max-[700px]:ml-[60px] p-14 max-lg:p-5 max-[400px]:px-6 font-[600] dashboard-content max-w-[1400px] mx-auto main-dashboard">
 
-          <Title title="Newsletter"/>
+          <Title title="Newsletter" />
 
-          <section className="flex flex-col max-[500px]:px-0 mt-0 max-[400px]:mt-0 max-[400px]:pt-[1rem] px-4 items-center"> 
+          <section className="flex flex-col relative max-[500px]:px-0 mt-0 max-[400px]:mt-0 max-[400px]:pt-[1rem] px-4 items-center"> 
            
            <Image 
            src={newsletterImage}
-           className="relative top-[60px]"
+           className="relative top-[-250px]"
            />
 
-           <form className="pt-[5rem] pb-[3rem] px-[4rem] bg-[#070707] w-full border-[1px] border-[#ffffff45] rounded-[15px] border-solid" method="">
+           <form className="pt-[5rem] pb-[3rem] relative top-[-500px] mb-10  px-[4rem] bg-[#070707] w-full border-[1px] border-[#ffffff45] rounded-[15px] border-solid" method="">
                     <input className="bg-[#131313] text-center py-[1.9rem] text-xl rounded-[15px] w-[100%] text-[#818181]" placeholder='Email' type="text" name="year" required />    
                     <input className="bg-gradient text-center py-[1.5rem] text-xl rounded-[15px] mt-[.7rem]  w-[100%] text-[#000] cursor-pointer" value="ENVIAR" type="submit" />    
            </form>
