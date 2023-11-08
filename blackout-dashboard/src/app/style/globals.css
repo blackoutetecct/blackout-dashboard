@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #000;
+  color: white;
+
+  overflow-x: hidden;
+  transition: 1s;
+}
+
+.main-dashboard {
+  background-image: url('../../assets/bg-3d.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.dashboard-content {
+  background: linear-gradient(184deg, rgba(0, 0, 0, 0.00) 92.05%, #e4da81 100.48%);
+}
+
+.dashboard-user {
+  background: linear-gradient(337deg, #070707 40.17%, #E4DA81 54.21%);
+}
+
+.bg-gradient {
+  background: linear-gradient(180deg, #131313 0%, #E4DA81 121.29%);
+  color: white;
+}
+
+
+@media (max-width: 700px) {
+  .dashboard-user {
+    background: linear-gradient(337deg, #070707 20.17%, #E4DA81 54.21%);
+  }
+
+  .dashboard-content {
+    background: linear-gradient(184deg, rgba(0, 0, 0, 0.00) 98.05%, #e4da81 100.48%);
+  }
+}
