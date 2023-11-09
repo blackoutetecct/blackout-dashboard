@@ -5,6 +5,7 @@ import dashboard from '../../assets/dashboardWhite.png'
 import tarifa from '../../assets/tarifa.png'
 import newsletter from '../../assets/newsletterYellow.png'
 import newsletterImage from '../../assets/newsletterImage.png'
+import email from '../../assets/emailNewsletter.png'
 
 // COMPONENTS
 
@@ -39,8 +40,9 @@ export default function Home() {
            className=""
            />
 
-           <form className="pt-[5rem] pb-[3rem] mb-10 px-[4rem] bg-[#070707] w-full border-[1px] border-[#ffffff45] rounded-[15px] border-solid" method="">
-                    <input className="bg-[#131313] text-center py-[1.9rem] text-xl rounded-[15px] w-[100%] text-[#818181]" placeholder='Email' type="text" name="year" required />    
+           <form className="relative pt-[5rem] pb-[3rem] mb-10 px-[4rem] max-[800px]:px-[.5rem] bg-[#070707] w-full border-[1px] border-[#ffffff45] rounded-[15px] border-solid" method="">
+                    <h2 className="font-bold text-[2rem] max-[500px]:text-[1.2rem] text-center mb-[3rem]"> ENVIE <span className='text-[#E4DA81]'>NEWSLETTER</span> OS USUÁRIOS  </h2>
+                    <div className='relative'><input className=" bg-[#131313] pl-4 py-[1.9rem] text-xl rounded-[15px] w-[100%] text-[#818181] max-[]"  placeholder='Assunto' type="text" required /><Image className="absolute top-[25px] right-[20px]" src={email} />  </div>     
                     <input className="bg-gradient text-center py-[1.5rem] text-xl rounded-[15px] mt-[.7rem]  w-[100%] text-[#000] cursor-pointer" value="ENVIAR" type="submit" />    
            </form>
 
