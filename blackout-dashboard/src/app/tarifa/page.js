@@ -31,7 +31,7 @@ export default function Home() {
 
           <Title title="TARIFA"/>
 
-          <section className="flex gap-2 relative top-[-2rem] bg-[#070707] max-[500px]:bg-black max-[500px]:px-0 mt-5 max-[400px]:mt-0 max-[400px]:pt-[1rem] pt-[3rem]  rounded-md px-4 items-center"> 
+          <section className="flex gap-2 relative top-[0rem] bg-[#070707] max-[500px]:bg-black max-[500px]:px-0 mt-5 max-[400px]:mt-0 max-[400px]:pt-[1rem] pt-[3rem]  rounded-md px-4 items-center"> 
            
            <Image 
            src={tarifaImage}
