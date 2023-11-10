@@ -7,5 +7,8 @@
 #
 ### TECNOLOGIAS
 
+- NEXTJS
+- TAILWINDCSS
+
 #
 ### HOSPEDADO
