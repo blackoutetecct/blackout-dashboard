@@ -1,7 +1,7 @@
 import Image from "next/image"
 
-import asideLogo from '../../assets/asideLogo.png'
-import logOut from '../../assets/logOut.png'
+import asideLogo from '../../assets/asidelogo.png'
+import logOut from '../../assets/logout.png'
 
 
 export default function Navbar(props) {
